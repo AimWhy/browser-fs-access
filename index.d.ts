@@ -135,7 +135,7 @@ export function directoryOpen(options?: {
   skipDirectory?: (
     entry: FileSystemDirectoryEntry | FileSystemDirectoryHandle
   ) => boolean;
-}): Promise<FileWithDirectoryAndFileHandle[] | FileSystemDirectoryHandle[]>;
+}): Promise<FileWithDirectoryAndFileHandle[] | FileWithHandle[]>;
 
 /**
  * Whether the File System Access API is supported.
